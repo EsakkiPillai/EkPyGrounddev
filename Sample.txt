@@ -21,7 +21,10 @@ webscrapping
 excel
 word 
 schedulers 
+Sending Mails  and Text
 spark
+open csv
+numpy 
 
 
 -------------------------------------------------------------------------------------------------------
