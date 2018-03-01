@@ -28,3 +28,102 @@ numpy
 
 
 -------------------------------------------------------------------------------------------------------
+
+
+
+
+
+================================================================================================================================
+
+List 
+even = [2,4,6,8]
+odd = [1,3,5,7]
+
+number = [even , odd]  ==> [ [2,4,6,8] ,  [1,3,5,7] ]
+
+No of ways to create a List 
+answer = []
+answer1 = list() // both of them will create a Empty List 
+list("esakki") ==> ['e', 's' , 'a' , 'k' , 'k' , 'i']
+
+
+even = another_even // both list represent the same list  , both are pointing to the same location 
+even = list(even) // both are pointing different Location 
+
+To check if both list represent the same memory Location 
+  even is another_even 
+To Check the if both lists have same values 
+  even == another_even
+  
+All the sequence in python are iterable.
+
+menu = []
+menu.append( ["egg", "span","bacon"])
+menu.append( ["egg", "span","bacon"])
+menu.append( ["egg", "span"])
+menu.append( ["egg", "bacon","span"])
+menu.append( ["egg", "bacon" ,"sausage","span"])
+menu.append( ["span", "bacon" ,"sausage","span"])
+menu.append( ["egg", "egg" ,"span","span" , "bacon" , "span"])
+
+for meal in menu :
+  if not "span" in meal:
+    print(meal)
+   
+   
+    
+Challenge :- 
+find a meal without span it prints the each ite in the meal 
+
+
+
+for meal in menu:
+  if meal not in "span" :
+        for item in meal :
+            print(item)
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Iterator And 
+
+phoneNumber = "9500804321"
+
+for ch in phoneNumber :
+      print ch  // For Loop will create a Iterator internally 
+// Same thing we are implementing using the Iterable 
+
+myIterator = itrer(phoneNumber)
+print (next(myIterator))  // 
+
+
+Create a list of Items 
+Create an iterator using the iter Function use a for loop to loop n tmes where n is the number of Items in your list 
+
+MyList = ["GBS" , "Healsth" ,"iisue" ,"Challenge" , "2018"]
+myIterator = iter(MyList)
+myLIstLength = len(MyList)
+
+for i in range(0.len(MyList)):
+  next_item = next(myIterator)
+  print(next_item)
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
