@@ -106,12 +106,55 @@ myLIstLength = len(MyList)
 for i in range(0.len(MyList)):
   next_item = next(myIterator)
   print(next_item)
+ 
+========================================================================================================================================
+Ranges
+
+  Ranges are builtIn Type 
+  
+  print(range(100)) // range(0,100) we are Creating a Range Object 
+  
+  myList = list( range(10) )  // [ 0 ,1, ,2, 3, 4, 5, 6, 7, 8, 9 ]  ... if we input one value it will start from 0 
+  phoneNumber.index('4') ==> 4 
+  phoneNumber[4] ==> e
   
   
+  decimals = range(0,100) 
+  print(decimals)   // range(0,100)
+  
+  
+  my_range = decimals(3:40:3) 
+  print ( my_range)   // range( 3,40,3) 
+  
+  for i in my_range :
+   print(i)
+   
+   print(my_range == range(3,40,3)) //true 
+   print(my_range == range(3,10,3)) //true    
+   
+ 
+Slicing -- 
+
+for i in range ( 99 ,0 ,-2):
+  print i 
+  
+r = range(0,100)
+range ( 99 , 0 ,-2 ) === r [:: -2]
+   
+to reverse a String ==> phoneNumber[::-1]
+
+r = range(0,100)
+for i in r[::-5]:
+  print i 
+  
+Challenge:- 
+
+p = range(0,100,4)
+o = p[::5]
+print each element 
 
 
-
-
+Tuples :-
 
 
 
