@@ -165,6 +165,17 @@ Tuples :-
 
 
 
+=============================================================================================================================================
+Dictionaries Part 2 
+
+we can get the Values using the Get Method 
+
+fruits.get("apple") //==> Value will be printed 
+we can give the default Values 
+fruits.get(dict_key , "We dont Have the Key Named "+ dist_key )
+
+
+
 
 
 
